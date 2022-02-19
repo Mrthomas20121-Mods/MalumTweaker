@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+issueTrackerURL="https://github.com/Mrthomas20121/MalumTweaker/issues"
+
+[[mods]]
+modId="malum_tweaker"
+version="0.0.3"
+displayName="Eidolon Tweaker"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/malum_tweaker"
+authors="Mrthomas20121"
+description='''
+Add Crafttweaker support to Eidolon
+'''
+
+[[dependencies.malum_tweaker]]
+	modId = "crafttweaker"
+	mandatory = true
+	versionRange = "[7.1,)"
+	ordering = "NONE"
+	side = "BOTH"
